@@ -1,22 +1,16 @@
 import 'package:flutter/material.dart';
+import 'screen/splashScreen.dart';
 
 void main(){
   runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'GIC App',
-      home: HomeScreen()
+      MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: MyApp(),
     )
   );
 }
-  
-class HomeScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text('Hello world :)'),
-      ),
-    );
-  }
-}
+
+
+
+
+
