@@ -18,6 +18,3 @@ samples, guidance on mobile development, and a full API reference.
 
 Color code for UI:
     262f4d
-    
-    +Sokhom
--task one of mine: create splashscreen (21/12/2019)
